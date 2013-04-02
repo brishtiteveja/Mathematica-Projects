@@ -1,0 +1,115 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 8.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[      3202,        106]
+NotebookOptionsPosition[      2874,         89]
+NotebookOutlinePosition[      3234,        105]
+CellTagsIndexPosition[      3191,        102]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"PDF", "[", 
+  RowBox[{
+   RowBox[{"BinomialDistribution", "[", 
+    RowBox[{"n", ",", "p"}], "]"}], ",", "k"}], "]"}]], "Input",
+ CellChangeTimes->{{3.54356881398482*^9, 3.543568814843176*^9}, {
+  3.543569042379458*^9, 3.5435692114919653`*^9}, {3.543569345106914*^9, 
+  3.543569370004109*^9}}],
+
+Cell[BoxData[
+ TagBox[GridBox[{
+    {"\[Piecewise]", GridBox[{
+       {
+        RowBox[{
+         SuperscriptBox[
+          RowBox[{"(", 
+           RowBox[{"1", "-", "p"}], ")"}], 
+          RowBox[{
+           RowBox[{"-", "k"}], "+", "n"}]], " ", 
+         SuperscriptBox["p", "k"], " ", 
+         RowBox[{"Binomial", "[", 
+          RowBox[{"n", ",", "k"}], "]"}]}], 
+        RowBox[{"0", "\[LessEqual]", "k", "\[LessEqual]", "n"}]},
+       {"0", 
+        TagBox["True",
+         "PiecewiseDefault",
+         AutoDelete->True]}
+      },
+      AllowedDimensions->{2, Automatic},
+      Editable->True,
+      GridBoxAlignment->{
+       "Columns" -> {{Left}}, "ColumnsIndexed" -> {}, "Rows" -> {{Baseline}}, 
+        "RowsIndexed" -> {}},
+      GridBoxItemSize->{
+       "Columns" -> {{Automatic}}, "ColumnsIndexed" -> {}, "Rows" -> {{1.}}, 
+        "RowsIndexed" -> {}},
+      GridBoxSpacings->{"Columns" -> {
+          Offset[0.27999999999999997`], {
+           Offset[0.84]}, 
+          Offset[0.27999999999999997`]}, "ColumnsIndexed" -> {}, "Rows" -> {
+          Offset[0.2], {
+           Offset[0.4]}, 
+          Offset[0.2]}, "RowsIndexed" -> {}},
+      Selectable->True]}
+   },
+   GridBoxAlignment->{
+    "Columns" -> {{Left}}, "ColumnsIndexed" -> {}, "Rows" -> {{Baseline}}, 
+     "RowsIndexed" -> {}},
+   GridBoxItemSize->{
+    "Columns" -> {{Automatic}}, "ColumnsIndexed" -> {}, "Rows" -> {{1.}}, 
+     "RowsIndexed" -> {}},
+   GridBoxSpacings->{"Columns" -> {
+       Offset[0.27999999999999997`], {
+        Offset[0.35]}, 
+       Offset[0.27999999999999997`]}, "ColumnsIndexed" -> {}, "Rows" -> {
+       Offset[0.2], {
+        Offset[0.4]}, 
+       Offset[0.2]}, "RowsIndexed" -> {}}],
+  "Piecewise",
+  DeleteWithContents->True,
+  Editable->False,
+  SelectWithContents->True,
+  Selectable->False]], "Output",
+ CellChangeTimes->{{3.543569057786909*^9, 3.5435691719821587`*^9}, 
+   3.543569212394185*^9, {3.543569357931843*^9, 3.543569370848131*^9}}]
+}, Open  ]]
+},
+WindowSize->{740, 652},
+WindowMargins->{{Automatic, -173}, {-189, Automatic}},
+FrontEndVersion->"8.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (November 6, \
+2010)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[579, 22, 317, 7, 27, "Input"],
+Cell[899, 31, 1959, 55, 49, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
